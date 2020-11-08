@@ -1,0 +1,13 @@
+.place__text-container{
+  grid-area: text;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+@media screen and (max-width:426px){
+  .place__text-container{
+    display: block;
+  }
+}

@@ -1,0 +1,41 @@
+.place__title{
+  grid-area: title;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-area: title;
+  width: 43vw;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: calc(76/72);
+  z-index: 1;
+}
+@media screen and (min-width:1280px){
+  .place__title{
+    width: 460px;  
+  }
+}
+@media screen and (max-width:768px){
+  .place__title{
+    width: 44.27vw;
+    font-size: 42px;
+    line-height: calc(46/42);
+    padding: 0;
+    box-sizing: border-box;
+      
+  }
+  
+}
+@media screen and (max-width:426px){
+  .place__title{
+    display: block;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 90vw;
+    margin-bottom: 32px;
+    max-width: 460px;
+  }
+}

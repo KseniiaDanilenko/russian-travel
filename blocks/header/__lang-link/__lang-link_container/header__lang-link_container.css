@@ -1,0 +1,13 @@
+
+.header__lang-link_container{
+  box-sizing: border-box;
+  width: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width:425px){
+  .header__lang-link_container{
+    width: 62px;
+  }
+}

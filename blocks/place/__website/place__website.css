@@ -1,0 +1,18 @@
+.place__website{
+  grid-area: url;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-self: end;
+  justify-self: start;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:426px){
+  .place__website{
+    display: none;
+  }
+}

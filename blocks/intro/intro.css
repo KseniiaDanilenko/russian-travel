@@ -1,0 +1,17 @@
+.intro{
+  width: 90.62%;
+  margin: 0 auto;
+  padding:0;
+  padding-top: 92px;
+}
+@media screen and (min-width:1280px){
+  .intro{
+    width: 76.87%;
+  }
+}
+@media screen and (max-width:425px){
+  .intro{
+    width: 90%;
+    padding-top: 64px;
+  }
+}

@@ -1,0 +1,18 @@
+.header__lang-link{
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: calc(28/24);
+  text-decoration: underline;
+  color: #FFF;
+}
+.header__lang-link:nth-of-type(2){
+  margin-left: 18px;
+  text-decoration: none;
+}
+@media screen and (max-width:425px){
+  .header__lang-link{
+    font-size: 18px;
+    line-height: calc(20/18);
+  }
+}

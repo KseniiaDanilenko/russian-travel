@@ -1,0 +1,19 @@
+.intro__container{
+  width: 74.35%;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+ justify-content: flex-start;
+}
+@media screen and (min-width:1280px){
+  .intro__container{
+    width: 70.12%;
+  }
+}
+@media screen and (max-width: 768px){
+  .intro__container{
+    width: 100%;
+  }
+}
