@@ -8,7 +8,7 @@
 }
 @media screen and (max-width:768px){
   .footer__link_container{
-    width: calc(100% - (186px +69px));
+    width: calc(100% - (186px + 69px));
   }
 }
 @media screen and (max-width: 425px){
