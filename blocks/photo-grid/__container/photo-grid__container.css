@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(auto-fit);
-  gap: 14px;  
+  gap: 14px;
   list-style: none;
 }
 
