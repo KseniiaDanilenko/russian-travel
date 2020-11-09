@@ -17,3 +17,12 @@
   src: url(../Fonts/Inter-Black.woff2) format("woff2"),
        url(../Fonts/Inter-Black.woff) format("woff");
 }
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../Fonts/Inter-Bold.woff2) format("woff2"),
+       url(../Fonts/Inter-Bold.woff) format("woff");
+}
