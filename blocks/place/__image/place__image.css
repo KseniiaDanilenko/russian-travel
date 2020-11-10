@@ -8,7 +8,7 @@
 }
 @media screen and (max-width:426px){
   .place__image{
-    display: block;   
+    display: block;
     margin-bottom: 32px;
   }
 }
