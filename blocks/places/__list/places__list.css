@@ -1,29 +1,21 @@
 .places__list{
-  width: 100%;
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90.62%, 1fr));
-  grid-template-rows: repeat(auto-fit);
-  gap: 80px;
+  width: 90.62%;
+  margin: 0 auto;
+  padding:0;  
   padding-top: 92px;
   padding-bottom: 92px;
   max-width: 1280px;
 }
-@media screen and (min-width:1280px){
-  .places__list{
-    grid-template-columns: repeat(auto-fit, minmax(76.875%, 1fr));
+@media screen and (max-width: 768px){
+  .places__list{     
+    width: 93.75%;
+    padding-top: 88px;
+    padding-bottom: 90px;
+    margin: 0 auto;
   }
 }
-@media screen and (max-width: 768px){
-  .places__list{
-    row-gap: 73px;
-    grid-template-columns: repeat(auto-fit, minmax(93.75%, 1fr));
-    padding-top: 88px;
-    padding-bottom: 90px;    
-}
-}
+
+
 @media screen and (max-width:425px){
   .places__list{
     display: block;

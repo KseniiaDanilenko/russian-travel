@@ -2,12 +2,12 @@
   margin: 0 auto;
   padding:0;
   width: 90.625%;
-  height: 18px;
   box-sizing: content-box;
   padding-top: 92px;
   padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 @media screen and (min-width:1280px){
   .footer{
@@ -26,6 +26,6 @@
     padding-top: 64px;
     margin:0;
     padding-left: 16px;
-    height: 310px;    
+    align-items: flex-start;
   }
 }

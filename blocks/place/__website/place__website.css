@@ -5,7 +5,6 @@
   box-sizing: border-box;
   align-self: end;
   justify-self: start;
-  height: 46px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

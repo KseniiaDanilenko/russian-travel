@@ -5,15 +5,11 @@
   list-style: none;
   display: flex;
   justify-content: space-between;  
+ 
 }
-@media screen and (max-width:768px){
-  .footer__container{
-    width: calc(100% - (186px + 69px));
-  }
-}
+
 @media screen and (max-width: 425px){
   .footer__container{
     flex-direction: column;
-    height: calc((5*25px) + (32px*4));
   }
 }

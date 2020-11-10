@@ -1,0 +1,9 @@
+.body{
+  width: 100%;
+  background-color:  #2A2C2F;
+  color: #FFFFFF;
+  font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}

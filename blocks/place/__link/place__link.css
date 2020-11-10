@@ -8,7 +8,6 @@
   line-height: calc(22/18);
   color: #FFF;
   z-index: 1;
-  height: 22px;
 }
 .place__link:hover{
   opacity: .8;

@@ -1,0 +1,19 @@
+.footer__list-item{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  margin-right: 18px;   
+}
+  
+.footer__list-item:nth-of-type(5){
+  margin-right: 0;
+}
+@media screen and (max-width:425px){
+  .footer__list-item{
+    margin:0;
+    margin-bottom: 32px;  
+  }
+  .footer__link:nth-of-type(5){
+    margin-bottom: 0;
+  }
+}
