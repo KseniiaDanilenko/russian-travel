@@ -1,18 +1,19 @@
 .photo-grid{
-  display: grid;
+  max-width: 1190px;
   margin: 0 auto;
+  display: grid;
   padding: 64px 0 15px;
-  grid-gap: 12px;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fill, minmax(284px, 288px));
   justify-content: center;
-  max-width: 1190px;
+  grid-gap: 12px;
+
 }
 @media screen and (min-width:1280px){
   .photo-grid__container{
     width: 92.5%;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap:16px;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 
   }
 }
